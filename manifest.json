@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "No Shorts",
+  "version": "0.5",
+  "description": "Play YT shorts as regular videos instead of in a separate player",
+  "action": {
+    "default_icon": "images/no-shorts-ico.png"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+
+  "icons": {
+    "16": "images/16.png",
+    "48": "images/48.png",
+    "128": "images/128.png"
+  },
+  "permissions": ["declarativeNetRequest", "tabs", "activeTab"],
+  "host_permissions": ["*://*.youtube.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
