@@ -4,14 +4,17 @@ YouTube Shorts, when viewed on a computer, use a completely different player wit
 
 This extension makes of the declarativeNetRequest API, which is only available in Chrome Manifest V3. No script injection takes place.
 
-## How to Use
-1. Open your terminal and navigate to the directory where you want to store this
-2. use: 
+## How to Download 
+1. Use this link: https://drive.google.com/drive/folders/1_r2WIbxxQBPwGXUfcHmmkz_ef5ZuCLLY?usp=sharing and unzip
+#### OR
+1. Open your terminal and navigate to the directory where you want to store this folder
+2. Use: 
 ```git clone https://github.com/AweSamarth/no-shorts/ ```
-3. Open Chrome (or any Chromium based browser)
-4. Enter `chrome://extensions` in the url bar.
-5. Toggle 'Developer Mode'
-6. Click on Load Unpacked
-7. Select the folder named no-shorts
+## How to Install
+1. Open Chrome (or any Chromium based browser)
+2. Enter `chrome://extensions` in the url bar.
+3. Toggle 'Developer Mode'
+4. Click on Load Unpacked
+5. Select the folder named no-shorts
 
 That's pretty much it! Enjoy browsing YouTube while this extension does all the work for you behind the scenes!
