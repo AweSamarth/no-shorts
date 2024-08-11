@@ -10,6 +10,8 @@ This extension **restores the old YouTube player** when viewing Shorts. It does 
 1. Open your terminal and navigate to the directory where you want to store this folder
 2. Use: 
 ```git clone https://github.com/AweSamarth/no-shorts/ ```
+### OR
+1. Go to releases and download from there
 ## How to Install
 1. Open Chrome (or any Chromium based browser)
 2. Enter `chrome://extensions` in the url bar.
